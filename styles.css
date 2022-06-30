@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display:flex;
+    flex-direction: row; 
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+}
+.tleft {
+    background-size:0 auto;
+    background-color: hotpink;
+    color: red;
+    padding: 20px 20px;
+    margin-top:5px;
+    margin-bottom:0px;
+    margin-left: 200px;
+    right: 200px;
+    width:300%;
+    height: 200px;
+    flex-direction: row;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.6);
+}
+.tleft:hover {
+background-color: gray;
+}
+
+
+.tright{
+    background-size:0 auto;
+    margin-top: 5px;
+    background-color: #F47C7C;
+    color: blue;
+    padding: 15px 25px;
+    width: 300%;
+    height: 205px;
+    position: relative;
+    left: 217px;
+    margin-right: 250px;
+    box-shadow: 0px 10px 10px pink;
+}
+.tright:hover{
+    background-color: green;
+}
+.center {
+    background-color: #3AB0FF;
+    padding: 15px 25px;
+    width: 300%;
+    height: 200px;
+    position: relative;
+    top: 245px;
+    right: 470px;
+    box-shadow: 0px 10px 10px #3AB0FF;
+}
+.center:hover{
+    background-color: aliceblue;
+}
+.bleft {
+    background-color:yellowgreen;
+    padding: 15px 25px;
+    width: 300%;
+    height: 200px;
+    position: relative;
+    top: 480px;
+    right: 911px;
+    box-shadow: 0px 10px 10px indigo;
+}
+.bleft:hover {
+    background-color: indigo;
+}
+.bright {
+    background-color: #00917C;
+    padding: 15px 25px;
+    color: yellow;
+    width: 300%;
+    height: 200px;
+    position: relative;
+    top: 480px;
+    right: 690px;
+    
+    box-shadow: 0px 10px 10px violet;
+}
+.bright:hover {
+    background-color: chartreuse;
+}
